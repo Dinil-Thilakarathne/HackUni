@@ -5,7 +5,10 @@ import { ChevronRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 to-purple-700">
+    <section
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 to-purple-700"
+      id="home"
+    >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         {[...Array(20)].map((_, i) => (
@@ -33,7 +36,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 px-4 text-center">
-      <motion.h3
+        <motion.h3
           className="mb-8 text-xl text-blue-100 md:text-5xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -80,6 +83,6 @@ export default function Hero() {
           />
         </motion.button>
       </div>
-    </div>
+    </section>
   );
 }
