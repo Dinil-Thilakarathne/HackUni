@@ -6,38 +6,14 @@ import { ChevronRight } from "lucide-react";
 export default function Hero() {
   return (
     <section
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 to-purple-700"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden "
       id="home"
     >
-      {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        {[...Array(20)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute rounded-full bg-white bg-opacity-20"
-            style={{
-              width: Math.random() * 100 + 50,
-              height: Math.random() * 100 + 50,
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              y: [0, Math.random() * 100 - 50],
-              opacity: [0.2, 0.5, 0.2],
-            }}
-            transition={{
-              duration: Math.random() * 10 + 10,
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-          />
-        ))}
-      </div>
 
       {/* Content */}
       <div className="relative z-10 px-4 text-center">
         <motion.h3
-          className="mb-8 text-xl text-blue-100 md:text-5xl"
+          className="mb-8 text-xl text-slate-600 md:text-5xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -45,7 +21,7 @@ export default function Hero() {
           By IEEE Student Branch of UCSC
         </motion.h3>
         <motion.h1
-          className="mb-4 text-5xl font-extrabold text-white md:text-7xl"
+          className="mb-4 text-5xl font-extrabold text-slate-900 md:text-7xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -53,7 +29,7 @@ export default function Hero() {
           HackUni Hackathon 2024
         </motion.h1>
         <motion.p
-          className="mb-8 text-xl text-blue-100 md:text-2xl"
+          className="mb-8 text-xl text-slate-600 md:text-2xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -61,7 +37,7 @@ export default function Hero() {
           Innovate, Code, Compete – Shape the Future
         </motion.p>
         <motion.div
-          className="mb-12 text-lg text-blue-200 md:text-xl"
+          className="mb-12 text-lg text-slate-600 md:text-xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
