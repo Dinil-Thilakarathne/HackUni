@@ -44,13 +44,13 @@ export default function PrizesSection() {
         >
           What You Can Win!
         </motion.h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {prizes.map((prize, index) => (
             <motion.div
               key={index}
               className={`relative overflow-hidden rounded-lg shadow-lg ${
                 index === 0
-                  ? "md:col-span-3"
+                  ? "md:col-span-2"
                   : index < 3
                     ? "md:col-span-1"
                     : "md:col-span-1"
@@ -59,10 +59,9 @@ export default function PrizesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              whileHover={{ scale: 1.05 }}
-            >
+                          >
               <div
-                className={`${prize.color} flex h-full flex-col items-center justify-center p-6 text-center text-white`}
+                className={`${prize.color} flex h-full flex-col items-center justify-center p-8 text-center text-white`}
               >
                 <prize.icon
                   className={`mb-4 h-16 w-16 ${index === 0 ? "animate-bounce" : ""}`}

@@ -66,7 +66,7 @@ export default function IntroductionSection() {
               transition={{ duration: 0.6, delay: 0.1 * index }}
               whileHover={{ scale: 1.05 }}
             >
-              <AnimatedBox className="flex h-full w-full items-center justify-center" borderWidth={6}>
+              <AnimatedBox className="flex h-full w-full items-center justify-center" borderWidth={6} borderColor="#3b82f6">
                 <div className="flex flex-col items-center text-center">
                   <div className="mb-4 rounded-full bg-blue-500 p-3 text-white">
                     <objective.icon className="h-8 w-8" />
