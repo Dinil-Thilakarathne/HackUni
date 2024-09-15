@@ -1,4 +1,15 @@
 # HackUni 2024
+## Contact
+For any questions or feedback, please contact:
+
+Name: Dinil Thilakarathne
+
+Index No: 23002077
+
+Email: sonacode44@gmail.com
+
+GitHub: [Dinil](https://github.com/Dinil-Thilakarathne)
+
 ## Overview
 This project is a web application built using Next.js, a React framework for server-rendered and statically generated web applications.
 
@@ -70,11 +81,4 @@ yarn start
 ```
 
 
-## Contact
-For any questions or feedback, please contact:
 
-Name: Dinil Thilakarathne
-
-Email: sonacode44@gmail.com
-
-GitHub: [Dinil](https://github.com/Dinil-Thilakarathne)
