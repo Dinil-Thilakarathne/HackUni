@@ -1,3 +1,4 @@
+import FAQSection from "@/components/FAQSection";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import IntroductionSection from "@/components/IntroSection";
@@ -10,8 +11,9 @@ export default function Home() {
       <Header />
       <Hero />
       <IntroductionSection />
-      <HorizontalTimelineSection/>
+      <HorizontalTimelineSection />
       <PrizesSection />
+      <FAQSection />
     </div>
   );
 }
