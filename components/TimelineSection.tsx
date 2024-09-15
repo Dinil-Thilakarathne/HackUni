@@ -94,7 +94,7 @@ export default function HorizontalTimelineSection() {
                           </h3>
                         </div>
                         <motion.p
-                          className=" lg:w-[35ch] text-balance lg:text-2xl text-lg text-gray-700"
+                          className=" lg:w-[35ch] xl:w-[45ch] text-balance lg:text-2xl text-lg text-gray-700"
                           initial={{ clipPath: "inset(0% 0 100% 0)" }}
                           animate={{ clipPath: "inset(0% 0 0% 0)" }}
                           transition={{
