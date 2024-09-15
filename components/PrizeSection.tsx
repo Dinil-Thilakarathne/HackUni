@@ -7,7 +7,7 @@ const prizes = [
   {
     title: "First Place",
     icon: Trophy,
-    prize: "$5,000",
+    prize: "LKR 25,000",
     color: "bg-yellow-500",
     description:
       "Cash prize, internship opportunity, and cutting-edge tech gadgets",
@@ -15,14 +15,14 @@ const prizes = [
   {
     title: "Second Place",
     icon: Award,
-    prize: "$3,000",
+    prize: "LKR 15,000",
     color: "bg-gray-400",
     description: "Cash prize and exclusive mentorship program",
   },
   {
     title: "Third Place",
     icon: Award,
-    prize: "$1,500",
+    prize: "LKR 10,000",
     color: "bg-orange-600",
     description: "Cash prize and online course subscriptions",
   },

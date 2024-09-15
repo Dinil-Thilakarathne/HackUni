@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 type AnimatedBoxProps = {
   children: React.ReactNode;
   className?: string;
+  innerBoxClassName?: string;
   borderWidth?: number;
   borderColor?: string;
 };
@@ -12,6 +13,7 @@ type AnimatedBoxProps = {
 export default function AnimatedBox({
   children,
   className,
+  innerBoxClassName,
   borderWidth = 2,
   borderColor = "red",
 }: AnimatedBoxProps) {
@@ -41,8 +43,8 @@ export default function AnimatedBox({
         ></motion.div>
       </motion.div>
       <motion.div
-        className="relative z-10 rounded-lg border-2 border-transparent bg-white p-6 w-full "
-        style={{ margin: borderWidth, height:`calc(100% - ${borderWidth} * 2px)` }}
+        className={cn("relative z-10 rounded-md border-2 border-transparent bg-white", innerBoxClassName)}
+        style={{ margin: borderWidth, height:`calc(100% - ${borderWidth} * 2px)`, width:`calc(100% - ${borderWidth} * 2px)` }}
       >
         {children}
       </motion.div>
