@@ -10,7 +10,7 @@ import { FAQsData } from "@/libs/data";
 
 const FAQSection = () => {
   return (
-    <section id="faq" className="min-h-[75vh] w-full">
+    <section id="faq" className="min-h-[50vh] w-full flex items-center justify-center">
       <div className=" container mx-auto my-auto ">
         <h1 className=" text-4xl font-bold pb-4 text-center md:text-5xl">FAQ</h1>
         <Accordion

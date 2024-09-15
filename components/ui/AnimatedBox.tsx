@@ -41,8 +41,8 @@ export default function AnimatedBox({
         ></motion.div>
       </motion.div>
       <motion.div
-        className="relative z-10 rounded-lg border-2 border-transparent bg-white p-6"
-        style={{ margin: borderWidth }}
+        className="relative z-10 rounded-lg border-2 border-transparent bg-white p-6 w-full "
+        style={{ margin: borderWidth, height:`calc(100% - ${borderWidth} * 2px)` }}
       >
         {children}
       </motion.div>
