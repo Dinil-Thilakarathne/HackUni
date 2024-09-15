@@ -1,4 +1,5 @@
 import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import IntroductionSection from "@/components/IntroSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <HorizontalTimelineSection />
       <PrizesSection />
       <FAQSection />
+      <Footer />
     </div>
   );
 }
