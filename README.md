@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HackUni 2024
+## Overview
+This project is a web application built using Next.js, a React framework for server-rendered and statically generated web applications.
 
-## Getting Started
+## Framework
+Next.js - A React framework that enables server-side rendering and static site generation for React applications. It provides an optimized, scalable way to build modern web applications.
 
-First, run the development server:
+## Features
+* Dynamic Page Routing: Using Next.js's App Router for seamless navigation.
+* Responsive Design: Ensures a great user experience on both desktop and mobile devices.
+* Custom Components: Includes components like header, hero section, introduction, timeline, prizes, and footer.
+
+## Installation
+To get started with this project, follow these steps:
+
+### Clone the Repository
+
+```bash
+git https://github.com/Dinil-Thilakarathne/HackUni.git
+cd HackUni
+```
+### Install Dependencies
+
+Make sure you have Node.js and npm (or yarn) installed. Then, run the following command to install the necessary dependencies:
+
+
+```bash
+npm install
+```
+Or, if you prefer using yarn:
+
+```bash
+yarn install
+```
+Run the Development Server
+
+Start the development server with the following command:
 
 ```bash
 npm run dev
-# or
+```
+Or, with yarn:
+
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+This will start the development server and open the application in your default web browser. By default, it will be available at http://localhost:3000.
+
+### Build and Deploy
+
+To build the project for production, use:
+
+```bash
+npm run build
+```
+Or with yarn:
+
+```bash
+yarn build
+```
+### After building, you can start the production server with:
+
+```bash
+npm start
+```
+Or with yarn:
+
+```bash
+yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
+For any questions or feedback, please contact:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Name: Dinil Thilakarathne
 
-## Learn More
+Email: sonacode44@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: [Dinil](https://github.com/Dinil-Thilakarathne)
